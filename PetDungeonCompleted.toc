@@ -1,9 +1,9 @@
-## Interface: 80200
+## Interface: 80300
 ## Title: Pet Dungeon Completed?
 ## Author: Riasta-Draenor EU
 ## Email: vanirosmond@gmail.com
 ## DefaultState: enabled
-## Version: 1.1.0
+## Version: 1.2.0
 ## Notes: Call with /pdc. Prints to chat if you've completed this weeks pet battle dungeons or not.
 
 core.lua

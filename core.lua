@@ -7,7 +7,14 @@ function SlashCmdList.PDC(msg, editbox) -- 4.
 	local DeadState = IsQuestFlaggedCompleted(46292)	
 	local WailingState = IsQuestFlaggedCompleted(45539)
 	local CelestialState = IsQuestFlaggedCompleted(33137)
+	local BlackrockState = IsQuestFlaggedCompleted(58458)
 
+	if BlackrockState == true then
+		BlackrockState = "Yes"
+	else
+		BlackrockState = "No"
+	end
+	print(strjoin(" ", "Completed Blackrock Depths? ", BlackrockState))
 	if StratState == true then
 		StratState = "Yes"
 	else
