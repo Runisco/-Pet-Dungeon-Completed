@@ -1,5 +1,9 @@
 ## Changelog
 
+-- 1.3.0 --
+* Updated for pre-patch 9.0.1
+* Fixed depreciated questcompleted call
+
 -- 1.2.0 --
 * Updated to WoW version 8.3
 * Added Blackrock depths
